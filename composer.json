@@ -3,7 +3,7 @@
     "type": "composer-installer",
     "description": "Composer installers for Erebot",
     "keywords": ["Erebot", "IRC", "bot", "installers"],
-    "homepage": "https://github.com/Erebot/Erebot_installers",
+    "homepage": "https://github.com/Erebot/Erebot_Installers",
     "license": "GPL-3.0+",
     "authors": [
         {
@@ -14,9 +14,9 @@
     ],
     "support": {
         "email": "erebot@erebot.net",
-        "issues": "https://github.com/Erebot/Erebot_installers/issues",
+        "issues": "https://github.com/Erebot/Erebot_Installers/issues",
         "irc": "irc://irc.iiens.net/Erebot",
-        "source": "https://github.com/Erebot/Erebot_installers"
+        "source": "https://github.com/Erebot/Erebot_Installers"
     },
     "repositories": [
         {
