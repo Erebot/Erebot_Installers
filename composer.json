@@ -1,0 +1,38 @@
+{
+    "name": "erebot/installers",
+    "type": "composer-installer",
+    "description": "Composer installers for Erebot",
+    "keywords": ["Erebot", "IRC", "bot", "installers"],
+    "homepage": "https://github.com/Erebot/Erebot_installers",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "François Poirotte",
+            "email": "clicky@erebot.net",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "email": "erebot@erebot.net",
+        "issues": "https://github.com/Erebot/Erebot_installers/issues",
+        "irc": "irc://irc.iiens.net/Erebot",
+        "source": "https://github.com/Erebot/Erebot_installers"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.erebot.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Erebot\\Composer": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "class": "Erebot\\Composer\\GenericDocInstaller"
+    }
+}
