@@ -10,7 +10,7 @@ extends LibraryInstaller
 {
     public function getInstallPath(PackageInterface $package)
     {
-        return 'doc/src/generic/';
+        return 'docs/src/generic/';
     }
 
     public function supports($packageType)
