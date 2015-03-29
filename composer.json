@@ -19,8 +19,8 @@
         "source": "https://github.com/Erebot/Erebot_Installers"
     },
     "autoload": {
-        "psr-0": {
-            "Erebot\\Composer": "src/"
+        "psr-4": {
+            "Erebot\\Composer\\": "src/"
         }
     },
     "extra": {
